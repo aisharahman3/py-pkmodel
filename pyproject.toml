@@ -1,0 +1,17 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+authors = [{name = "Hugo Marchetti"}]
+name = "pkmodel"
+version = "0.6.5"
+description = "One- and two-compartment PK, multiple-dose steady state."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+keywords = ["pharmacology"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+]
